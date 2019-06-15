@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Hello, world!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- подключаем Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">
+            <img src="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="logo">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a href="#" class="mr-3 ml-5 nav-link">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="mr-3 nav-link">Банк</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="mr-3 nav-link">Биржа</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="mr-3 nav-link">Личное</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="mr-3 nav-link">Новости</a>
+                </li>
+            </ul>
+
+            <button class="mr-5 butn_navmenu" data-toggle="modal" data-target="#regModal" >
+                Регистрация
+            </button>
+            <button class="mr-5 butn_navmenu" data-toggle="modal" data-target="#exampleModal" >
+                Авторизация
+            </button>
+
+
+
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="container">
+
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Шаг 1. Зарегистрируй команду</h4>
+                    <p class="card-text">
+                        Подойди и зарегистрируй группу у администратора
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Шаг 2. Пройди пару станций</h4>
+                    <p class="card-text">
+                        Пройди пару станций, не дрочи хуйца!
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Шаг 3. Купи акций</h4>
+                    <p class="card-text">
+                        Купи, а то чё как лох то!
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Шаг 4. Продай акции</h4>
+                    <p class="card-text">
+                        Да! Продай их! Только не просто так, а с выгодой!
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Шаг 5. Шагай нахуй!</h4>
+                    <p class="card-text">
+                        Выйграй или шагай нахуй!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Форма Авторизации -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Авторизация</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-froup">
+                                <label for="exampleInputEmail">Ваш логин</label>
+                                <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Логин">
+                                <small id="emailHelp" class="form-text text-muted">Введите ваш логин
+
+                                </small>
+                            </div>
+                            <div class="form-froup">
+                                <label for="exampleInputPass">Пароль</label>
+                                <input type="email" class="form-control" id="exampleInputPass" aria-describedby="passHelp" placeholder="Пароль">
+                                <small id="emailHelp" class="form-text text-muted">Введите ваш пароль
+
+                                </small>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-form">
+                                Отправить
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Форма Регистрации -->
+
+    <div class="modal fade" id="regModal" tabindex="-1" role="dialog" aria-labelledby="regModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="regModalLabel">Регистрация (только для администраторов)</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-froup">
+                                <label for="exampleInputEmail">Ваш логин</label>
+                                <input type="email" class="form-control" id="regInputEmail" aria-describedby="emailHelp" placeholder="Логин">
+                                <small id="emailHelp" class="form-text text-muted">Введите ваш логин
+
+                                </small>
+                            </div>
+                            <div class="form-froup">
+                                <label for="exampleInputPass">Пароль</label>
+                                <input type="email" class="form-control" id="exampleInputPass" aria-describedby="passHelp" placeholder="Пароль">
+                                <small id="emailHelp" class="form-text text-muted">Введите ваш пароль
+
+                                </small>
+                            </div>
+                            <div class="form-froup">
+                                <label for="exampleInputPass">Ваша роль</label>
+                                <p ><select style="width:100%"  size="3" multiple name="game_role">
+                                    <option disabled>Выберите роль</option>
+                                    <option value="Модератор">Модератор</option>
+                                    <option selected value="Ведущий">Ведущий</option>
+                                    <option value="Биржа">Биржа</option>
+                                </select></p>
+
+                                <!--<input type="email" class="form-control" id="exampleInputPass" aria-describedby="passHelp" placeholder="Пароль">-->
+                            </div>
+                            <div class="form-froup">
+                                <label for="exampleInputPass">Кол-во очков</label>
+                                <input type="email" class="form-control" id="exampleInputPass" aria-describedby="passHelp" placeholder="Кол-во очков">
+                                <small id="emailHelp" class="form-text text-muted">Введите кол-во очков
+
+                                </small>
+                            </div>
+                            <div class="form-froup">
+                                <label for="exampleInputPass">Коэффициент</label>
+                                <input type="email" class="form-control" id="exampleInputPass" aria-describedby="passHelp" placeholder="Коэффициент">
+                                <small id="emailHelp" class="form-text text-muted">Введите коэффициент
+
+                                </small>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-form">
+                                Отправить
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- подключаем JavaScript -->
+<!-- подключаем jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

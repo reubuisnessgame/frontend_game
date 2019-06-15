@@ -1,0 +1,22 @@
+body {
+    background: #eee;
+    font-size: 1.2rem !important;
+}
+.butn_navmenu {
+    background: transparent;
+    border-radius: 15px !important;
+    border: 1px solid rgba(255,255,255,.5);
+    color: rgba(255,255,255,.5);
+    padding: 3px 20px;
+}
+.butn_navmenu:hover {
+    background: rgba(255,255,255,.5);
+    color: black;
+}
+.btn-form {
+    margin-top: 15px;
+}
+.h2_main_page {
+    margin-top: 20px;
+    text-align: center;
+}
